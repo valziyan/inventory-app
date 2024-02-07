@@ -22,6 +22,10 @@ Route::get('/dashboard2', function () {
     return 'welcome to dashboard 2';
 });
 
+Route::get('/profile2', function () {
+    return 'Welcome to my Profile';
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
