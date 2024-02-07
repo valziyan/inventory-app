@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/dashboard2', function () {
+    return 'welcome to dashboard 2';
+});
+
 Route::get('/profile2', function () {
     return 'Welcome to my Profile';
 });
