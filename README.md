@@ -1,3 +1,3 @@
 ## Inventory App
 
-The quick brown fox jump over the lazy dog.
+This is a basic inventory app in Laravel + react
